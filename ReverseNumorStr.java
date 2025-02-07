@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ReverseNumber {
+public class ReverseNumorStr {
     public static void reverstr(){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");

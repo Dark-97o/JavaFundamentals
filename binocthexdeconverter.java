@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class binaryno {
+public class binocthexdeconverter {
     public static void dectobin(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a decimal number: ");
