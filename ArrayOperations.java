@@ -9,7 +9,7 @@ public class ArrayOperations {
         System.out.println();
     }
 
-    public static void printEvenOdd(int[] arr) {
+    public static void EvenOdd(int[] arr) {
         System.out.print("Even Integers: ");
         for (int num : arr) {
             if (num % 2 == 0) {
@@ -27,7 +27,7 @@ public class ArrayOperations {
         System.out.println();
     }
 
-    public static void findMinMax(int[] arr) {
+    public static void MinMax(int[] arr) {
         int min = arr[0];
         int max = arr[0];
         for (int num : arr) {
@@ -73,11 +73,9 @@ public class ArrayOperations {
         for (int i = 0; i < size; i++) {
             arr[i] = scanner.nextInt();
         }
-
-        // Perform operations
         reverseArray(arr);
-        printEvenOdd(arr);
-        findMinMax(arr);
+        EvenOdd(arr);
+        MinMax(arr);
         printPrimes(arr);
 
         scanner.close();
