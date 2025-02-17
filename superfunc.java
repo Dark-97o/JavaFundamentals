@@ -7,12 +7,10 @@ public class superfunc {
 
 class Parent {
     String name;
-
     Parent(String name) {
         this.name = name;
         System.out.println("Parent class parameterized constructor called: " + this.name);
     }
-
     void display() {
         System.out.println("Parent Name: " + this.name);
     }
@@ -20,13 +18,11 @@ class Parent {
 
 class Child extends Parent {
     int age;
-
      Child() {
         super("PARENT");
         this.age = 19;
         System.out.println("Child class constructor called");
     }
-
     void show() {
         super.display();
         System.out.println("Child Age: " + this.age);
