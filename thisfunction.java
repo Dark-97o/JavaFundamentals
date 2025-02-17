@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class thisfunction{
     public static void main(String[] args) {
         Something s1 = new Something();
