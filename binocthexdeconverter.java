@@ -23,6 +23,7 @@ public class binocthexdeconverter {
         String hex = sc.nextLine();
         int decimal = Integer.parseInt(hex, 16);
         System.out.println("Decimal equivalent: " + decimal);
+        sc.close();
     }
     public static void dectohex() {
         Scanner scanner = new Scanner(System.in);
@@ -30,6 +31,7 @@ public class binocthexdeconverter {
         int decimal = scanner.nextInt();
         String hexadecimal = Integer.toHexString(decimal).toUpperCase();
         System.out.println("Hexadecimal equivalent: " + hexadecimal);
+        scanner.close();
     }
     public static void bintodec() {
         Scanner scanner = new Scanner(System.in);
@@ -37,6 +39,7 @@ public class binocthexdeconverter {
         String binary = scanner.nextLine();
         int decimal = Integer.parseInt(binary, 2);
         System.out.println("Decimal equivalent: " + decimal);
+        scanner.close();
     }
     public static void octodec() {
         Scanner scanner = new Scanner(System.in);
@@ -72,6 +75,6 @@ public class binocthexdeconverter {
         else{
             System.out.println("Invalid Choice\nPlease Try Again");
         }
-
+        sc.close();
     }
 }
