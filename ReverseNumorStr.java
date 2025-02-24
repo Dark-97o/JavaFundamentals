@@ -35,5 +35,6 @@ public class ReverseNumorStr {
         else if(ch==2){
             reverynum();
         }
+        scanner.close();
     }
 }

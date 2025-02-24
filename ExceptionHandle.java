@@ -1,6 +1,4 @@
-package Lab3;
-
-import java.sql.SQLOutput;
+impimport java.sql.SQLOutput;
 
 public class ExceptionHandle {
     void div(int a ,int b){
