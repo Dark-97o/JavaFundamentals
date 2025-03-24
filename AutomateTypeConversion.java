@@ -1,4 +1,4 @@
-package Lab3;
+import java.util.Scanner;
 
 public class AutomateTypeConversion {
     void show(double a) {

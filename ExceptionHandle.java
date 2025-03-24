@@ -1,4 +1,5 @@
-impimport java.sql.SQLOutput;
+import java.sql.SQLOutput;
+import java.util.Scanner;;
 
 public class ExceptionHandle {
     void div(int a ,int b){

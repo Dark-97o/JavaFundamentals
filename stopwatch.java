@@ -122,7 +122,7 @@ public class stopwatch extends JFrame {
     public static void main(String[] args) {
         // Run the application on the Event Dispatch Thread
         SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
+            public void run() {  
                 new stopwatch().setVisible(true);
             }
         });

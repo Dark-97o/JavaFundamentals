@@ -1,4 +1,4 @@
-package Lab1;
+import java.util.Scanner;
 
 public class Calculator {
     static void addition(int num1 ,int num2){
