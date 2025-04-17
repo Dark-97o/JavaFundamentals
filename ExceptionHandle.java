@@ -8,7 +8,7 @@ public class ExceptionHandle {
             int c = a / b;
             System.out.println(c);
         }catch (Exception exception){
-            System.out.println("Error due to divide by 0");
+            System.out.println("Error due to divide by 0" + exception);
         }
         System.out.println("End_________");
     }
